@@ -1,0 +1,25 @@
+<template>
+  <div @mouseover="increment">Hovers: {{ count }}</div>
+</template>
+
+<script>
+import counter from "@/mixins/counter.js";
+
+export default {
+  mixins: [counter],
+  data() {
+    // return { count: 0 };
+  },
+  methods: {
+    // increment() {
+    //   this.count++;
+    // },
+  },
+};
+</script>
+
+<style scoped>
+div {
+  background: gainsboro;
+}
+</style>
