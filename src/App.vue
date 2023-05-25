@@ -1,5 +1,16 @@
 <template>
   <div id="app">
+    <div class="area-code">
+      <div>
+        <h2>JSX</h2>
+        <img src="@/assets/codeBlock.png" width="600" />
+      </div>
+
+      <div>
+        <h2>Vue Template</h2>
+        <img src="@/assets/codeBlock2.png" width="600" />
+      </div>
+    </div>
     <div class="area-top">
       <input
         autofocus
@@ -72,6 +83,12 @@ body {
   margin-top: 60px;
   height: 100%;
   width: 100%;
+}
+
+.area-code {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
 }
 
 .area-top {
