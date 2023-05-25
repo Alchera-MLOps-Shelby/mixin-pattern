@@ -5,7 +5,6 @@
         <h2>JSX</h2>
         <img src="@/assets/codeBlock.png" width="600" />
       </div>
-
       <div>
         <h2>Vue Template</h2>
         <img src="@/assets/codeBlock2.png" width="600" />
@@ -25,6 +24,7 @@
       <JSXComponent :messages="messages" />
       <RegularComponent :messages="messages" />
     </div>
+    <img src="@/assets/renderDesignPatternExample.png" height="400" />
   </div>
 </template>
 
